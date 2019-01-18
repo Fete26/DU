@@ -4,7 +4,7 @@ public class Main {
         Glass hugeGlass = new Glass(1.5f);
 
         try{
-            hugeGlass.addWater(20f);
+            hugeGlass.addWater(20.0f);
         } catch(GlassOverflownException e) {
 
             System.out.println(e);
